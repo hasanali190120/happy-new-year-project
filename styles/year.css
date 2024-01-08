@@ -407,8 +407,10 @@
      margin-top: 120px;
  }
 
- .footer-column {
+  .footer-frist {
      display: flex;
+     justify-content: space-between;
+     
  }
 
  .footer-column1 {
@@ -424,7 +426,35 @@
      font-weight: 500;
      line-height: 40px
  }
+ hr{
+   color: rgba(255, 255, 255, 0.15);
+ }
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px auto;
 
+}
+.last-part{
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+}
+.last-part1{
+color: #FFF; 
+font-size: 24px; 
+font-weight: 500;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.social-icon{
+    width: 1200px;
+    
+}
 
 
  
