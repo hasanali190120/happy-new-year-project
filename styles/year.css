@@ -116,7 +116,7 @@
  }
 
  .container-mid {
-     background-color: navajowhite;
+     background-color:  rgba(255, 0, 0, 0.05);
      margin-top: 120px;
      /* background-color:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
      margin-left: 100px;
@@ -209,11 +209,11 @@
      border-radius: 50%;
 
  }
- 
- .mid-come{
-    border: 10px solid red; 
-    border-radius: 100%;
-    padding: 10px;
+
+ .mid-come {
+     border: 10px solid red;
+     border-radius: 100%;
+     padding: 10px;
  }
 
  .product-title1 {
@@ -305,8 +305,7 @@
      position: relative;
      z-index: 1;
      inset: -140px;
-    
-     top: 25px;
+     top: 25px; 
  }
 
  .holidaySection {
@@ -396,65 +395,79 @@
      align-items: center;
 
  }
-
-
-
-
-
  footer {
      background-color: #070211;
-     padding: 140px 200px;
-     margin-top: 120px;
+      padding: 140px 200px; 
+     margin-top: 120px; 
  }
 
-  .footer-frist {
+ .footer-frist {
      display: flex;
      justify-content: space-between;
-     
+
  }
 
  .footer-column1 {
      color: #FFF;
      font-size: 24px;
      font-weight: 500;
-     line-height: 40px;
+     /* line-height: 40px; */
  }
 
  .footer-column2 {
      color: #FFF;
      font-size: 24px;
      font-weight: 500;
-     line-height: 40px
+     /* line-height: 40px */
  }
- hr{
-   color: rgba(255, 255, 255, 0.15);
+
+
+ .social-media {
+     display: flex;
+     justify-content: center;
+     gap: 25px;
+     margin: 50px auto;
+
  }
-.social-media{
+
+ .last-part {
+     color: #FFF;
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ .last-part1 {
+     color: #FFF;
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ .footer-last {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+ }
+
+ .social-icon {
+     width: 1200px;
+
+ }
+
+ .call {
+     display: flex;
+     align-items: center;
+     gap: 3px;
+     margin-top: 5px;
+ }
+
+ .img-footer {
+     /* width: 24px; */
+     /* height: 24px; */
+     
+ }
+ .contact{
     display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin: 50px auto;
-
-}
-.last-part{
-color: #FFF;
-font-size: 24px;
-font-weight: 500;
-}
-.last-part1{
-color: #FFF; 
-font-size: 24px; 
-font-weight: 500;
-}
-.footer-last{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-.social-icon{
-    width: 1200px;
-    
-}
-
-
- 
+    flex-direction: column;
+    gap: 5px;
+ }
+  
