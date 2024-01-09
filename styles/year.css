@@ -404,6 +404,7 @@
  .footer-frist {
      display: flex;
      justify-content: space-between;
+     align-items: center;
 
  }
 
@@ -452,22 +453,18 @@
      width: 1200px;
 
  }
-
- .call {
-     display: flex;
-     align-items: center;
-     gap: 3px;
-     margin-top: 5px;
- }
-
- .img-footer {
-     /* width: 24px; */
-     /* height: 24px; */
-     
- }
- .contact{
+.contact{
     display: flex;
     flex-direction: column;
-    gap: 5px;
- }
+
+}
+ 
+.img-footer{
+    display: inline;
+}
+.footer-column2{
+    display: inline;
+}
+ 
+ 
   
